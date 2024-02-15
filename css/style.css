@@ -1,0 +1,11 @@
+body {
+    background-image: url("../img/bg-image.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.titulo {
+    font-size: 64px;
+}
+.parrafo {
+    font-size: 32px;
+}
