@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
+    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Formulario</title>
@@ -11,5 +11,24 @@
 <body>
     <h1 class="titulo">Interested in our business pricing?</h1>
     <p class="parrafo">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+    <form action="text" class="formulario">
+        
+        <div class="descripcion">Name<input type="text" id="inputs"></div>
+        <div class="descripcion">Company Email<input type="email" name="@email" id="inputs"></div>
+       
+
+        <div class="descripcion">Company size
+            <select name="cantidadDeEmpleados" id="inputs">
+                <option value="50">50 - 100 empleados</option>
+            </select>
+        </div>
+        <div class="descripcion ">Subject
+            <select name="Building Landing pages" id="inputs">
+                <option value="pages">Building Landing pages</option>
+            </select>
+        </div>
+        
+        <textarea name="mensajes" id="" cols="100%" rows="10">50 - 100 empleados</textarea>
+    </form>
 </body>
 </html>
