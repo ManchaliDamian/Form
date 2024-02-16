@@ -30,6 +30,9 @@ body {
 textarea {
     width: inherit;
 }
+.btn {
+    text-align: center;
+}
 #inputs {
     width: 300px;
 }
