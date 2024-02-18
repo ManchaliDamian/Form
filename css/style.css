@@ -45,6 +45,7 @@ header{
     border-radius: 12px;
     padding: 5px 0 0 5px;
     margin-bottom: 20px;
+    outline: none;
 }
 .textarea-text {
     text-align: left;
@@ -56,11 +57,13 @@ header{
     height: 50px;   
     border: none;
     border-radius: 12px;
+    outline: none;
 }
 #inputs {
     width: 300px;
     height: 50px;
     opacity: 0.8;
+    outline: none;
     border: none;
     border-radius: 12px;
 }
@@ -69,6 +72,7 @@ header{
     width: 307px;
     border: none;
     border-radius: 12px;
+    outline: none;
 }
 
    
