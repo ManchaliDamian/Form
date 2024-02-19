@@ -60,7 +60,8 @@ header{
     outline: none;
 }
 #inputs {
-    width: 300px;
+    width: 285px;
+    padding-left: 20px;
     height: 50px;
     opacity: 0.85;
     outline: none;
@@ -70,6 +71,7 @@ header{
 
 #selects {
     height: 50px;
+    padding-left: 15px;
     width: 307px;
     border: none;
     border-radius: 12px;
