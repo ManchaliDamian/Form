@@ -11,10 +11,14 @@ header{
     margin-left: 5%;
 }
 .titulo {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color:white;
     font-size: 64px;
     margin: 0px 290px 30px;
 }
 .parrafo {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color:white;
     font-size: 32px;
     margin: 0px 290px 60px;
 }
@@ -34,6 +38,8 @@ header{
     
 }
 .descripcion{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color:white;
     width: min-content;
     text-align: left;
     margin: 0;
@@ -48,10 +54,14 @@ header{
     outline: none;
 }
 .textarea-text {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color:white;
     text-align: left;
     
 }
 .btn {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color:#4036A9;
     text-align: center;
     margin-right: 0;
     width: 100%;
