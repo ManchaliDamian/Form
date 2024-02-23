@@ -89,5 +89,55 @@ header{
     border-radius: 12px;
     outline: none;
 }
+@media screen and (max-width: 1279px) {
+    .titulo {
+        font-size: 36px;
+    }
+    .parrafo {
+        font-size: 26px;
+    }
+    #inputs {
+        width: 220px;
+    }
+    #selects {
+        width: 241px;
+    }
+}
 
-   
+
+@media screen and (max-width: 1023px) {
+    .titulo {
+        font-size: 32px;
+        margin: 10px 80px 20px;
+    }
+    .parrafo {
+        font-size: 20px;
+        margin: 10px 80px 20px;
+    }
+    .formulario {
+        width: 90%;
+    }
+    .descripcion {
+        font-size: 12px;
+    }
+    .textarea-text {
+        font-size: 12px;
+    }
+    #inputs {
+        width: 530px;
+        height: 40px;
+    }
+    #selects {
+        width: 551px;
+        height: 40px;
+    }
+    .textarea {
+        width: 95%;
+    }
+    .btn {
+        width: 98%;
+        height: 40px;
+    }
+}
+@media screen and (min-width: 640px) {
+}
