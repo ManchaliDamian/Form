@@ -139,5 +139,32 @@ header{
         height: 40px;
     }
 }
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 640px) {
+    .formulario {
+        width: 80%;
+    }
+    .titulo {
+        font-size: 28px;
+    }
+    .parrafo {
+        font-size: 15px;
+    }
+    #inputs {
+        font-size: 13px;
+        width: 230px;
+        height: 40px;
+    }
+    #selects {
+        font-size: 13px;
+        width: 251px;
+        height: 40px;
+    }
+    .textarea {
+        width: 100%;
+        font-size: 13px;
+        padding: 10px 0 0 5px;
+    }
+    .btn {
+        padding: 0;
+    }
 }
