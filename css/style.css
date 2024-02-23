@@ -168,3 +168,33 @@ header{
         padding: 0;
     }
 }
+@media screen and (max-width: 430px) {
+    .formulario {
+        width: 80%;
+    }
+    .titulo {
+        font-size: 28px;
+    }
+    .parrafo {
+        font-size: 15px;
+    }
+    #inputs {
+        font-size: 13px;
+        width: 300px;
+        height: 40px;
+    }
+    #selects {
+        font-size: 13px;
+        width: 321px;
+        height: 40px;
+    }
+    .textarea {
+        width: 98%;
+        font-size: 13px;
+        padding: 10px 0 0 5px;
+    }
+    .btn {
+        padding: 0;
+        width: 100%;
+    }
+}
